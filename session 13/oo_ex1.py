@@ -13,3 +13,5 @@ jsonwords=createReader("words.json")
 
 assert textwords.has_word("abled")
 assert jsonwords.has_word("abled")
+
+jsonwords = createReader("words.json")
